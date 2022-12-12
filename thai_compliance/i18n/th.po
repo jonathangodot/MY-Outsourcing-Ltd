@@ -1,0 +1,576 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* thai_compliance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220915\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-20 02:18+0000\n"
+"PO-Revision-Date: 2022-10-27 10:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_needaction
+#, fuzzy
+msgid "Action Needed"
+msgstr "การดำเนินการที่จำเป็น"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__address_moo
+msgid "Address Moo"
+msgstr "หมู่ที่"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Address Moo..."
+msgstr "หมู่ที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__address_no
+msgid "Address No"
+msgstr "เลขที่"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Address No..."
+msgstr "เลขที่"
+
+#. module: thai_compliance
+#: model:ir.model,name:thai_compliance.model_hr_employee
+msgid ""
+"Adds the attributes required to be compatible with the hardware to the "
+"employee model."
+msgstr "เพิ่มรายการที่จำเป็นเพื่อให้เข้ากันได้กับฮาร์ดแวร์โมเดลพนักงาน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_attachment_count
+msgid "Attachment Count"
+msgstr "จำนวนเอกสารแนบ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__branch_nb
+msgid "Branch No."
+msgstr "สาขาที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__branch_nb
+msgid "Branch Number"
+msgstr "สาขาที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__building
+msgid "Building"
+msgstr "อาคาร"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__building
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__building
+msgid "Building Name / Village"
+msgstr "อาคาร / หมู่บ้าน"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Building Name..."
+msgstr "อาคาร"
+
+#. module: thai_compliance
+#: model:ir.model,name:thai_compliance.model_thailand_compliance_common
+msgid "Common fields for the Thai compliance documents"
+msgstr "ช่องทั่วไปสำหรับเอกสารการปฏิบัติตามข้อกำหนดของไทย"
+
+#. module: thai_compliance
+#: model:ir.model,name:thai_compliance.model_thailand_compliance_common_line
+msgid "Common fields for the Thai compliance documents lines"
+msgstr "ช่องทั่วไปสำหรับบรรทัดเอกสารการปฏิบัติตามข้อกำหนดของไทย"
+
+#. module: thai_compliance
+#: model:ir.model,name:thai_compliance.model_res_company
+msgid "Companies"
+msgstr "บริษัท"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__company_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__company_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__company_id
+msgid "Company"
+msgstr "บริษัท"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__company_address
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__company_address
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__company_address
+msgid "Company Address"
+msgstr "ที่อยู่บริษัท"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__personal_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__personal_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__personal_id
+msgid "Company Tax ID"
+msgstr "เลขประจำตัวผู้เสียภาษีอากร"
+
+#. module: thai_compliance
+#: model:ir.ui.menu,name:thai_compliance.menu_config
+msgid "Configuration"
+msgstr "การกำหนดค่า"
+
+#. module: thai_compliance
+#: model:ir.model,name:thai_compliance.model_res_partner
+msgid "Contact"
+msgstr "ติดต่อ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__country_id
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__country_id
+msgid "Country"
+msgstr "ประเทศ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__country_code
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__country_code
+msgid "Country Code"
+msgstr "รหัสประเทศ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__create_uid
+msgid "Created by"
+msgstr "สร้างโดย"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__create_date
+msgid "Created on"
+msgstr "สร้างบน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__currency_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__currency_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__currency_id
+msgid "Currency"
+msgstr "สกุลเงิน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__display_name
+msgid "Display Name"
+msgstr "ชื่อที่แสดง"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__district
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__district
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__district
+msgid "District"
+msgstr "อำเภอ / เขต"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "District..."
+msgstr "อำเภอ / เขต"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__fax
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__fax
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__fax
+msgid "Fax"
+msgstr "แฟกซ์"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__floor
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__floor
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__floor
+msgid "Floor"
+msgstr "ชั้นที่"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Floor..."
+msgstr "ชั้นที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_follower_ids
+msgid "Followers"
+msgstr "ผู้ติดตาม"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ผู้ติดตาม (พันธมิตร)"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__has_message
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__has_message
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__has_message
+msgid "Has Message"
+msgstr "มีข้อความ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__id
+msgid "ID"
+msgstr "ไอดี"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__message_needaction
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__message_unread
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__message_needaction
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__message_unread
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__message_needaction
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__message_unread
+#, fuzzy
+msgid "If checked, new messages require your attention."
+msgstr "หากเลือก ข้อความใหม่ต้องให้ความสนใจ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__message_has_error
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__message_has_error
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__message_has_error
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "หากเลือก ข้อความบางข้อความมีข้อผิดพลาดในการส่ง"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_is_follower
+msgid "Is Follower"
+msgstr "เป็นผู้ติดตาม"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__street
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__street
+msgid "Lane / Soi"
+msgstr "ตรอก / ซอย"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Lane / Soi..."
+msgstr "ตรอก / ซอย"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test____last_update
+msgid "Last Modified on"
+msgstr "แก้ไขล่าสุดเมื่อ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__write_uid
+msgid "Last Updated by"
+msgstr "อัปเดตล่าสุดโดย"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__write_date
+msgid "Last Updated on"
+msgstr "อัปเดตล่าสุดเมื่อ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "เอกสารแนบหลัก"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_has_error
+msgid "Message Delivery error"
+msgstr "ข้อผิดพลาดในการส่งข้อความ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_ids
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_ids
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_ids
+msgid "Messages"
+msgstr "ข้อความ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__address_moo
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__address_moo
+msgid "Moo."
+msgstr "หมู่ที่"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+msgid "Moo..."
+msgstr "หมู่ที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__address_no
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__address_no
+msgid "No."
+msgstr "เลขที่"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+msgid "No..."
+msgstr "เลขที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_needaction_counter
+msgid "Number of Actions"
+msgstr "จำนวนการดำเนินการ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_has_error_counter
+msgid "Number of errors"
+msgstr "จำนวนข้อผิดพลาด"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "จำนวนข้อความที่ต้องดำเนินการ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "จำนวนข้อความที่มีข้อผิดพลาดในการส่ง"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__message_unread_counter
+msgid "Number of unread messages"
+msgstr "จำนวนข้อความที่ยังไม่ได้อ่าน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__pid
+msgid "PID"
+msgstr "หมายเลขประจำตัวประชาชน"
+
+#. module: thai_compliance
+#: code:addons/thai_compliance/models/res_company.py:0
+#, python-format
+msgid "PID must be 13 digits"
+msgstr "หมายเลขประจำตัวประชาชนต้องเป็น 13 หลัก"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_res_company__pid
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__personal_id
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__personal_id
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__personal_id
+msgid "Personal Identification No."
+msgstr "หมายเลขประจำตัวประชาชน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__position
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__position
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__position
+msgid "Position of Signer"
+msgstr "ตำแหน่งผู้ลงนาม"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__province
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__province
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__province
+msgid "Province"
+msgstr "จังหวัด"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Province..."
+msgstr "จังหวัด"
+
+#. module: thai_compliance
+#: model:ir.model,name:thai_compliance.model_thailand_compliance_common_test
+msgid "Reserved for tests"
+msgstr "สงวนไว้สำหรับการทดสอบ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__street2
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__street2
+msgid "Road"
+msgstr "ถนน"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Road..."
+msgstr "ถนน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__room_no
+msgid "Room No"
+msgstr "ห้องเลขที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__room_no
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__room_no
+msgid "Room No."
+msgstr "ห้องเลขที่"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Room No..."
+msgstr "ห้องเลขที่"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ข้อผิดพลาดในการส่ง SMS"
+
+#. module: thai_compliance
+#: model:ir.actions.act_window,name:thai_compliance.action_thai_compliance_configuration
+#: model:ir.ui.menu,name:thai_compliance.menu_thai_compliance_settings
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__state_id
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__state_id
+msgid "State"
+msgstr "สถานะ"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__city
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__city
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__city
+msgid "Sub-District"
+msgstr "ตำบล / แขวง"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__tin
+msgid "TIN"
+msgstr "เลขประจำตัวผู้เสียภาษี"
+
+#. module: thai_compliance
+#: code:addons/thai_compliance/models/res_company.py:0
+#, python-format
+msgid "TIN must be 10 digits"
+msgstr "เลขประจำตัวผู้เสียภาษีต้องเป็นตัวเลข 10 หลัก"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_hr_employee__tin
+msgid "Tax Identification No"
+msgstr "เลขประจำตัวผู้เสียภาษี"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_res_company__tin
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_line__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance.field_thailand_compliance_common_test__taxpayer_id
+msgid "Tax Identification No."
+msgstr "เลขประจำตัวผู้เสียภาษี"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__taxpayer_id
+msgid "Taxpayer ID Number"
+msgstr "เลขประจำตัวผู้เสียภาษี"
+
+#. module: thai_compliance
+#: model:ir.ui.menu,name:thai_compliance.root_thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.thai_compliance_res_config_settings_view_form
+msgid "Thai Compliance"
+msgstr "การปฏิบัติตามกฎหมายไทย"
+
+#. module: thai_compliance
+#: model:ir.model.fields,help:thai_compliance.field_res_partner__country_code
+#: model:ir.model.fields,help:thai_compliance.field_res_users__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+"โค้ดประเทศ ISO ในสองตัวอักษร\n"
+"คุณสามารถใช้ช่องนี้เพื่อการค้นหาอย่างรวดเร็ว"
+
+#. module: thai_compliance
+#: code:addons/thai_compliance/models/thailand_common_fields.py:0
+#, python-format
+msgid "The year must be a number"
+msgstr "ปีจำเป็นต้องเป็นตัวเลข"
+
+#. module: thai_compliance
+#: code:addons/thai_compliance/models/thailand_common_fields.py:0
+#, python-format
+msgid "There is already a record for this document."
+msgstr "มีบันทึกสำหรับเอกสารนี้อยู่แล้ว"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_unread
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_unread
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_unread
+msgid "Unread Messages"
+msgstr "ข้อความที่ยังไม่ได้อ่าน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "ตัวนับข้อความที่ยังไม่ได้อ่าน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_company__village
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__village
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__village
+msgid "Village"
+msgstr "หมู่บ้าน"
+
+#. module: thai_compliance
+#: model_terms:ir.ui.view,arch_db:thai_compliance.res_partner_view_form_private
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_company_thai_compliance_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance.view_partner_form_address
+msgid "Village..."
+msgstr "หมู่บ้าน"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__year
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__year
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__year
+msgid "Year"
+msgstr "ปี"
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common__year_be
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_line__year_be
+#: model:ir.model.fields,field_description:thai_compliance.field_thailand_compliance_common_test__year_be
+msgid "Year BE"
+msgstr "พ.ศ."
+
+#. module: thai_compliance
+#: model:ir.model.fields,field_description:thai_compliance.field_res_partner__zip
+#: model:ir.model.fields,field_description:thai_compliance.field_res_users__zip
+msgid "Zip"
+msgstr "รหัสไปรษณีย์"

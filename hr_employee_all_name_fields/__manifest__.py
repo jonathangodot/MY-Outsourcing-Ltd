@@ -1,0 +1,20 @@
+{
+    "name": "Install All Employee Name Fields",
+    "version": "1.2",
+    "author": "Louis <louis@newlogic.com>",
+    "website": "https://newlogic.com",
+    "category": "Human Resources",
+    "license": "Other proprietary",
+    "summary": "Makes it easy to install all name fields",
+    "depends": [
+        "base",
+        "hr",
+        "hr_employee_name_group",
+        "hr_employee_given_names",
+        "hr_employee_family_names",
+        "hr_employee_full_name_in_local_alphabet",
+        "hr_employee_nickname",
+        "hr_employee_title",
+    ],
+    "installable": True,
+}

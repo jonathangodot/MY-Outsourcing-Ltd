@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_sps1_10_company_tree" model="ir.ui.view">
+        <field name="name">sps1_10.company.tree</field>
+        <field name="model">thailand.sps1.10.company</field>
+        <field name="arch" type="xml">
+            <tree string="SPS1-10">
+                <field name="company_id"/>
+                <field name="year"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_sps1_10_company_form" model="ir.ui.view">
+        <field name="name">sps1_10.company.form</field>
+        <field name="model">thailand.sps1.10.company</field>
+        <field name="arch" type="xml">
+            <form string="SPS1-10" create="0">
+                <header>
+                    <button name="pdf_export_sps1_10" string="Export PDF" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <group name="Commun">
+                        <group name="Company Info" string="Company">
+                            <field name="company_id"/>
+                            <field name="company_address" string="Location of Head Branch"/>
+                        </group>
+                    </group>
+                    <field name="sps1_10_id" widget="one2many">
+                        <tree name="sps1_10_id" create="0" update="0">
+                            <field name="no"/>
+                            <field name="branch_nb"/>
+                            <field name="total_wages" sum="Tot. Wages"/>
+                            <field name="employee_contrib" sum="Tot. Insured Contribution"/>
+                            <field name="employer_contrib" sum="Tot. Employer Contribution"/>
+                            <field name="total_contrib" sum="Tot. Contribution"/>
+                            <field name="number_of_insured" sum="Tot. Qtt Insuer Contribution"/>
+                        </tree>
+                    </field>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" groups="base.group_user"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id='action_sps1_10_company' model="ir.actions.act_window">
+        <field name="name">SPS1-10</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">thailand.sps1.10.company</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+    </record>
+
+    <!-- <menuitem id="sps1_10_company_menu" name="SPS1-10 Company" groups="base.group_user" action="action_sps1_10_company" parent="menu_social_security" sequence="0"/> -->
+
+</odoo>

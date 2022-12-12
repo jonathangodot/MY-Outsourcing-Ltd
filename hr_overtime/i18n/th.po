@@ -1,0 +1,564 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_overtime
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220915\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-20 02:12+0000\n"
+"PO-Revision-Date: 2022-10-25 10:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: hr_overtime
+#: model:ir.model,name:hr_overtime.model_hr_overtime_need
+#, fuzzy
+msgid ""
+"\n"
+"Describe a need for overtime. It is mainly composed of a list of schedules, supposed\n"
+"to fill a number of hours required.\n"
+msgstr ""
+"\n"
+"อธิบายความจําเป็นในการทํางานล่วงเวลา ส่วนใหญ่ประกอบด้วยรายการตารางเวลาที่ควรจะเป็น เพื่อกรอกจํานวนชั่วโมงที่ต้องการ\n"
+
+#. module: hr_overtime
+#: model:ir.model,name:hr_overtime.model_hr_overtime
+msgid ""
+"\n"
+"This is the model for the Overtime. It is used to store the data for the Overtime.\n"
+msgstr ""
+"\n"
+"นี่คือรูปแบบสําหรับการทํางานล่วงเวลา ใช้เพื่อจัดเก็บข้อมูลสําหรับการทํางานล่วงเวลา\n"
+
+#. module: hr_overtime
+#: model:ir.model,name:hr_overtime.model_hr_overtime_schedule
+#, fuzzy
+msgid ""
+"\n"
+"This is the schedule of overtime for an employee. An employee can have many schedules,\n"
+"It is composed by as much overtime object as needed.\n"
+msgstr ""
+"\n"
+"อธิบายความจําเป็นในการทํางานล่วงเวลา ส่วนใหญ่ประกอบด้วยรายการตารางเวลาที่ควรจะเป็น เพื่อกรอกจํานวนชั่วโมงที่ต้องการ\n"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+msgid "Accept"
+msgstr "ตกลง"
+
+#. module: hr_overtime
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime__state__accepted
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_schedule__state__accepted
+#, fuzzy
+msgid "Accepted"
+msgstr "ยอม รับ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_needaction
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_needaction
+#, fuzzy
+msgid "Action Needed"
+msgstr "การดําเนินการที่จําเป็น"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__percentage_filled
+msgid "Allocated"
+msgstr "ปัน ส่วน"
+
+#. module: hr_overtime
+#: model:ir.model,name:hr_overtime.model_ir_attachment
+msgid "Attachment"
+msgstr "การผูกติด"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_attachment_count
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_attachment_count
+msgid "Attachment Count"
+msgstr "จํานวนไฟล์แนบ"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__cancelled
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime__cancelled__y
+msgid "Cancelled"
+msgstr "ยก เลิก"
+
+#. module: hr_overtime
+#: model:ir.actions.server,name:hr_overtime.cron_need_over_ir_actions_server
+#: model:ir.cron,cron_name:hr_overtime.cron_need_over
+#: model:ir.cron,name:hr_overtime.cron_need_over
+#, fuzzy
+msgid "Check Need Over"
+msgstr "ตรวจสอบความต้องการมากกว่า"
+
+#. module: hr_overtime
+#: model:ir.actions.server,name:hr_overtime.cron_schedule_over_ir_actions_server
+#: model:ir.cron,cron_name:hr_overtime.cron_schedule_over
+#: model:ir.cron,name:hr_overtime.cron_schedule_over
+msgid "Check Schedule Over"
+msgstr "ตรวจสอบกําหนดการมากกว่า"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__create_uid
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__create_uid
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__create_uid
+msgid "Created by"
+msgstr "สร้างโดย"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__create_date
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__create_date
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__create_date
+msgid "Created on"
+msgstr "สร้างเมื่อ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__date_from
+msgid "Date From"
+msgstr "วันที่จาก"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__date_start
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__date_start
+msgid "Date Start"
+msgstr "วันที่เริ่มต้น"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__date_stop
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__date_stop
+msgid "Date Stop"
+msgstr "วันที่หยุด"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__date_to
+msgid "Date To"
+msgstr "วันที่ถึง"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__description
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_form
+msgid "Description"
+msgstr "คำอธิบาย"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__display_name
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__display_name
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__display_name
+msgid "Display Name"
+msgstr "ชื่อที่แสดง"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__document_uploaded
+msgid "Document Uploaded"
+msgstr "อัปโหลดเอกสารแล้ว"
+
+#. module: hr_overtime
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime__state__draft
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_need__state__draft
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_schedule__ot_need_state__draft
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_schedule__state__draft
+msgid "Draft"
+msgstr "ร่าง"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__employee_id
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__employee_id
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_search
+msgid "Employee"
+msgstr "พนักงาน"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_follower_ids
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_follower_ids
+msgid "Followers"
+msgstr "ผู้ติดตาม"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_partner_ids
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ผู้ติดตาม (พันธมิตร)"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_search
+msgid "Group By"
+msgstr "จัดกลุ่มตาม"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__has_message
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__has_message
+msgid "Has Message"
+msgstr "มีข้อความ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__hours
+msgid "Hours"
+msgstr "ชั่วโมง"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__hours_completed
+msgid "Hours Completed"
+msgstr "ชั่วโมงที่เสร็จสมบูรณ์"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__hours_filled
+msgid "Hours Filled"
+msgstr "ชั่วโมงเต็ม"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__nb_hours
+msgid "Hours of OT"
+msgstr "ชั่วโมงของ OT"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__id
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__id
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__id
+msgid "ID"
+msgstr "รหัส"
+
+#. module: hr_overtime
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_need__message_needaction
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_need__message_unread
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_schedule__message_needaction
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_schedule__message_unread
+#, fuzzy
+msgid "If checked, new messages require your attention."
+msgstr "หากเลือกไว้ ข้อความใหม่จะต้องได้รับการตรวจสอบจากคุณ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_need__message_has_error
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_need__message_has_sms_error
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_schedule__message_has_error
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_schedule__message_has_sms_error
+#, fuzzy
+msgid "If checked, some messages have a delivery error."
+msgstr "หากเลือกไว้ แสดงว่าข้อความบางข้อความมีข้อผิดพลาดในการส่ง"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_is_follower
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_is_follower
+msgid "Is Follower"
+msgstr "เป็นผู้ติดตาม"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime____last_update
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need____last_update
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule____last_update
+msgid "Last Modified on"
+msgstr "แก้ไขครั้งล่าสุดเมื่อวันที่"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__write_uid
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__write_uid
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__write_uid
+msgid "Last Updated by"
+msgstr "อัปเดตล่าสุดโดย"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__write_date
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__write_date
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__write_date
+msgid "Last Updated on"
+msgstr "อัปเดตล่าสุดเมื่อ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_main_attachment_id
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "เอกสารแนบหลัก"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_has_error
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_has_error
+msgid "Message Delivery error"
+msgstr "ข้อผิดพลาดในการส่งข้อความ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_ids
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_ids
+msgid "Messages"
+msgstr "ข้อความ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__name
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__name
+msgid "Name"
+msgstr "Name"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__ot_need
+msgid "Need"
+msgstr "ต้องการ"
+
+#. module: hr_overtime
+#: model:ir.ui.menu,name:hr_overtime.menu_overtime_needs
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_tree
+msgid "Needs"
+msgstr "จำ เป็น ต้อง"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_needaction_counter
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_needaction_counter
+msgid "Number of Actions"
+msgstr "จํานวนการดําเนินการ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_has_error_counter
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_has_error_counter
+msgid "Number of errors"
+msgstr "จํานวนข้อผิดพลาด"
+
+#. module: hr_overtime
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_need__message_needaction_counter
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_schedule__message_needaction_counter
+#, fuzzy
+msgid "Number of messages which requires an action"
+msgstr "จํานวนข้อความที่ต้องมีการดําเนินการ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_need__message_has_error_counter
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_schedule__message_has_error_counter
+#, fuzzy
+msgid "Number of messages with delivery error"
+msgstr "จํานวนข้อความที่มีข้อผิดพลาดในการส่ง"
+
+#. module: hr_overtime
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_need__message_unread_counter
+#: model:ir.model.fields,help:hr_overtime.field_hr_overtime_schedule__message_unread_counter
+#, fuzzy
+msgid "Number of unread messages"
+msgstr "จํานวนข้อความที่ยังไม่ได้อ่าน"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime.py:0
+#, fuzzy, python-format
+msgid "OT end : (%(stop)s) must be before the date to : (%(limit)s)."
+msgstr "จุดสิ้นสุด OT: (% (หยุด) s) ต้องอยู่ก่อนวันที่ถึง: (% (ขีด จํากัด ) s)"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime.py:0
+#, fuzzy, python-format
+msgid ""
+"One OT for employee {} (Schedule \"{}\") is overlapping :\n"
+"{} || {}\n"
+"{} || {}."
+msgstr ""
+"หนึ่ง OT สําหรับพนักงาน {} (กําหนดการ “{}”) ทับซ้อนกัน\n"
+"{} || {}\n"
+"{} || {}."
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__ot_need_state
+#, fuzzy
+msgid "Ot Need State"
+msgstr "OT ต้องการรัฐ"
+
+#. module: hr_overtime
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime__state__over
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_need__state__over
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_schedule__ot_need_state__over
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_schedule__state__over
+#, fuzzy
+msgid "Over"
+msgstr "เหนือ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__ot
+#: model:ir.ui.menu,name:hr_overtime.root_overtime_menu
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+msgid "Overtime"
+msgstr "ล่วงเวลา"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_form
+msgid "Overtime Need"
+msgstr "ความต้องการทํางานล่วงเวลา"
+
+#. module: hr_overtime
+#: model:ir.actions.act_window,name:hr_overtime.action_hr_overtime_needs
+msgid "Overtime Needs"
+msgstr "ความต้องการทํางานล่วงเวลา"
+
+#. module: hr_overtime
+#: model:ir.actions.act_window,name:hr_overtime.action_hr_overtime_schedule
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__ot_schedules
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+msgid "Overtime Schedule"
+msgstr "ตารางการทํางานล่วงเวลา"
+
+#. module: hr_overtime
+#: model:ir.actions.act_window,name:hr_overtime.action_hr_overtime
+#: model:ir.ui.menu,name:hr_overtime.menu_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_tree
+msgid "Overtimes"
+msgstr "การทํางานล่วงเวลา"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_form
+msgid "Publish All Work Entries"
+msgstr "ประกาศรายการงานทั้งหมด"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_form
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+msgid "Publish Work Entries"
+msgstr "ประกาศรายการงาน"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+#, fuzzy
+msgid "Repeat Next Day"
+msgstr "ทําซ้ําในวันถัดไป"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+#, fuzzy
+msgid "Repeat Next Week"
+msgstr "ทําซ้ําในสัปดาห์หน้า"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_has_sms_error
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_has_sms_error
+#, fuzzy
+msgid "SMS Delivery error"
+msgstr "ข้อผิดพลาดในการส่ง SMS"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__ot_schedule
+#: model:ir.ui.menu,name:hr_overtime.menu_overtime_schedule
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_form
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_tree
+msgid "Schedule"
+msgstr "ตาราง"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_form
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+#, fuzzy
+msgid "Set To Draft"
+msgstr "ตั้งค่าเป็นแบบร่าง"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_needs_form
+#, fuzzy
+msgid "Set To Validated"
+msgstr "ตั้งค่าเป็นตรวจสอบความถูกต้อง"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime.py:0
+#, fuzzy, python-format
+msgid "Start date (%(start)s) must be earlier than overtime end date (%(end)s)."
+msgstr "วันที่เริ่มต้น (% (เริ่มต้น) s) ต้องเร็วกว่าวันที่สิ้นสุดการทํางานล่วงเวลา (% (สิ้นสุด) s)"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__state
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__state
+#, fuzzy
+msgid "State"
+msgstr "สภาพ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__state
+msgid "Status"
+msgstr "สถานะ"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime_need.py:0
+#, fuzzy, python-format
+msgid "The hours needed cannot be 0."
+msgstr "ชั่วโมงที่ต้องการไม่สามารถเป็น 0 ได้"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime_need.py:0
+#, fuzzy, python-format
+msgid "There is at least one overtime schedule that ends after the date to."
+msgstr "มีตารางการทํางานล่วงเวลาอย่างน้อยหนึ่งรายการที่สิ้นสุดหลังจากวันที่ถึง"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime_need.py:0
+#, python-format
+msgid "There is at least one overtime schedule that starts before the date from."
+msgstr "มีตารางการทํางานล่วงเวลาอย่างน้อยหนึ่งรายการที่เริ่มต้นก่อนวันที่นับจากนี้"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__tz
+msgid "Timezone"
+msgstr "เขตเวลา"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__hours_needed
+#, fuzzy
+msgid "Tot. Hours"
+msgstr "จํานวนชั่วโมงรวม"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+msgid "Uncancel"
+msgstr "ยกเลิกการยกเลิก"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_unread
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_unread
+msgid "Unread Messages"
+msgstr "ข้อความที่ยังไม่ได้อ่าน"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_need__message_unread_counter
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime_schedule__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "ตัวนับข้อความที่ยังไม่ได้อ่าน"
+
+#. module: hr_overtime
+#: model_terms:ir.ui.view,arch_db:hr_overtime.view_hr_overtime_schedule_form
+msgid "Validate"
+msgstr "ตรวจ สอบ"
+
+#. module: hr_overtime
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime__state__validated
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_need__state__validated
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_schedule__ot_need_state__validated
+#: model:ir.model.fields.selection,name:hr_overtime.selection__hr_overtime_schedule__state__validated
+#, fuzzy
+msgid "Validated"
+msgstr "ตรวจ สอบ"
+
+#. module: hr_overtime
+#: model:ir.model.fields,field_description:hr_overtime.field_hr_overtime__work_entry_type_id
+msgid "Work Entry Type"
+msgstr "ชนิดรายการงาน"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime_schedule.py:0
+#, fuzzy, python-format
+msgid "You must create at least one overtime before accepting it."
+msgstr "คุณต้องสร้างการทํางานล่วงเวลาอย่างน้อยหนึ่งครั้งก่อนที่จะยอมรับ"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime_schedule.py:0
+#, fuzzy, python-format
+msgid "You must create at least one overtime before saving the schedule."
+msgstr "คุณต้องสร้างการทํางานล่วงเวลาอย่างน้อยหนึ่งครั้งก่อนที่จะบันทึกกําหนดการ"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime_need.py:0
+#, fuzzy, python-format
+msgid "You must create at least one schedule before saving the need."
+msgstr "คุณต้องสร้างกําหนดการอย่างน้อยหนึ่งรายการก่อนที่จะบันทึกความต้องการ"
+
+#. module: hr_overtime
+#: code:addons/hr_overtime/models/hr_overtime_schedule.py:0
+#, fuzzy, python-format
+msgid "You must upload a document before validating the schedule."
+msgstr "คุณต้องอัปโหลดเอกสารก่อนที่จะตรวจสอบกําหนดการ"

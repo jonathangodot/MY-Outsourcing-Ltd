@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_hr_overtime_need,access_overtime_need,model_hr_overtime_need,base.group_user,1,1,1,1
+access_hr_overtime_schedule,access_overtime_schedule,model_hr_overtime_schedule,base.group_user,1,1,1,1
+access_hr_overtime,access_overtime,model_hr_overtime,base.group_user,1,1,1,1

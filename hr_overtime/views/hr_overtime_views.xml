@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="view_hr_overtime_tree" model="ir.ui.view">
+        <field name="name">hr.overtime.tree</field>
+        <field name="model">hr.overtime</field>
+        <field name="arch" type="xml" >
+            <tree string="Overtimes" create="0" delete="0">
+                <field name="employee_id"/>
+                <field name="work_entry_type_id"/>
+                <field name="date_start"/>
+                <field name="date_stop"/>
+                <field name="hours"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_hr_overtime_search" model="ir.ui.view">
+        <field name="name">hr.overtime.search</field>
+        <field name="model">hr.overtime</field>
+        <field name="arch" type="xml" >
+            <search string="Employee">
+                <field name="employee_id"/>
+                <separator/>
+                <group col="8" colspan="4" expand="0" string="Group By">
+                    <filter string="Employee" name="head" context="{'group_by': 'employee_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id='action_hr_overtime' model="ir.actions.act_window">
+        <field name="name">Overtimes</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.overtime</field>
+        <field name="view_mode">tree</field>
+        <field name="context">{'search_default_head': 1}</field>
+        <field name="search_view_id" ref="view_hr_overtime_search"/>
+    </record>
+
+    <menuitem id="menu_overtime" name="Overtimes" groups="base.group_user" action="action_hr_overtime" parent="root_overtime_menu" sequence="1"/>
+
+</odoo>

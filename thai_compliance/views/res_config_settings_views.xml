@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="thai_compliance_res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.thai.compliance</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="45"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div class="app_settings_block" id="thai_compliance" data-string="Thai Compliance" data-key="thai_compliance" string="Thai Compliance" groups="base.group_system">
+                    <!-- <group name="Fields"> -->
+                    <!-- </group> -->
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="action_thai_compliance_configuration" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'thai_compliance', 'bin_size': False}</field>
+    </record>
+
+    <menuitem id="menu_thai_compliance_settings" name="Settings" parent="thai_compliance.menu_config" sequence="99" action="action_thai_compliance_configuration" groups="base.group_system"/>
+
+</odoo>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="allowance_fields" model="ir.ui.view">
+        <field name="name">view.employee.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='hr_settings']" position='after' groups="hr.group_hr_user">
+                <page name="tax_allowance" string='Tax Allowance Information'>
+                    <group>
+                        <group string="Personal" name="allowance_perso">
+                            <field name="expenses" string="Expenses"/>
+                            <field name="personal_allowance" string="Personal Allowance"/>
+                            <field name="donations" string="Donations"/>
+                        </group>
+                        <group string="Family" name="allowance_family">
+                            <field name="spouse_allowance" string="Spouse Allowance"/>
+                            <field name="parents_allowance" string="Dependent Parents"/>
+                            <field name="children_before_2018" string="Dependent Children (born before 2018)"/>
+                            <field name="children_since_2018" string="Dependent Children (born after 2018)"/>
+                        </group>
+                        <group string="Health" name="allowance_health">
+                            <field name="insurance_premium" string="Insurance Premium"/>
+                        </group>
+                        <group string="Finance" name="allowance_finance">
+                            <field name="provident_fund" string="Provident Found"/>
+                            <field name="housing_loan" string="Housing Loan"/>
+                            <field name="provident_fund_retirement_mutual_fund" string="Retirement Mutual Fund"/>
+                            <field name="ssf" string="Super Saving Found (SSF)"/>
+                        </group>
+                        <field name="first_year" invisible="1"/>
+                        <group string="Previous Company Info" name="previous_company_info" attrs="{'invisible': [('first_year', '=', False)]}">
+                            <field name="worked_before"/>
+                            <field name="previous_social_security" attrs="{'invisible': [('worked_before', '=', 'UNEMPLOYED')]}"/>
+                            <field name="previous_withholding_tax" attrs="{'invisible': [('worked_before', '=', 'UNEMPLOYED')]}"/>
+                            <field name="previous_revenue" attrs="{'invisible': [('worked_before', '=', 'UNEMPLOYED')]}"/>
+                        </group>                    
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

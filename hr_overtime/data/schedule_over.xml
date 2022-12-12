@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<odoo noupdate="2">
+	<record forcecreate="True" id="cron_schedule_over" model="ir.cron">
+		<field name="name">Check Schedule Over</field>
+		<field eval="True" name="active"/>
+		<field name="user_id" ref="base.user_admin"/>
+		<field name="interval_number">1</field>
+		<field name="interval_type">days</field>
+		<field name="numbercall">-1</field>
+		<field name="model_id" ref="hr_overtime.model_hr_overtime_schedule"/>
+		<field name="state">code</field>
+		<field name="code">model.cron_set_ot_over()</field>
+	</record>
+</odoo>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="root_thai_compliance" name="Thai Compliance" groups="base.group_user" sequence="39" web_icon="thai_compliance,static/description/icon.png"/>
+    <menuitem id="menu_config" name="Configuration" groups="base.group_user" parent="root_thai_compliance" sequence="99"/>
+</odoo>

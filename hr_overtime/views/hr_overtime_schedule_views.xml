@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="view_hr_overtime_schedule_tree" model="ir.ui.view">
+        <field name="name">hr.overtime.schedule.tree</field>
+        <field name="model">hr.overtime.schedule</field>
+        <field name="arch" type="xml">
+            <tree string="Schedule">
+                <field name="employee_id"/>
+                <field name="name"/>
+                <field name="date_start"/>
+                <field name="date_stop"/>
+                <field name="nb_hours"/>
+                <field name="state" widget="badge" decoration-muted="state == 'OVER'" decoration-info="state == 'ACCEPTED'" decoration-primary="state == 'DRAFT'" decoration-success="state == 'VALIDATED'"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_hr_overtime_schedule_form" model="ir.ui.view">
+        <field name="name">hr.overtime.schedule.form</field>
+        <field name="model">hr.overtime.schedule</field>
+        <field name="arch" type="xml">
+            <form string="Overtime Schedule">
+                <header>
+                    <field name="state" widget="statusbar" statusbar_visible="DRAFT,VALIDATED,ACCEPTED,OVER"/>
+                    <button name="publish_work_entries" type="object" class="oe_highlight" string="Publish Work Entries" attrs="{'invisible' : [('state', '=', 'DRAFT')]}"/>
+                    <button name="set_to_accepted" type="object" class="oe_highlight" string="Accept" attrs="{'invisible' : [('state', '!=', 'DRAFT')]}"/>
+                    <button name="set_to_validated" type="object" class="oe_highlight" string="Validate" attrs="{'invisible' : ['|', ('state', 'in', ['VALIDATED', 'OVER']), ('document_uploaded', '=', False)]}"/>
+                    <button name="set_to_draft" type="object" class="btn btn-secondary" string="Set To Draft" attrs="{'invisible' : ['|', ('state', '=', 'DRAFT'), ('ot_need_state', '!=', 'DRAFT')]}"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" />
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="ot_need_state" invisible="1"/>
+                            <field name="document_uploaded" invisible="1"/>
+                            <field name="employee_id"/>
+                            <field name="date_start"/>
+                            <field name="date_stop"/>
+                            <field name="nb_hours"/>
+                        </group>
+                        <group>
+                            <field name="ot_need" attrs="{'invisible': [('ot_need','=',False)]}"/>
+                        </group>
+                    </group>
+                    <field name="ot" widget="one2many">
+                        <tree string="Overtime" editable="bottom">
+                            <field name="work_entry_type_id"/>
+                            <!-- <field name="tz"/> -->
+                            <field name="date_start"/>
+                            <field name="date_stop"/>
+                            <field name="hours"/>
+                            <field name="cancelled" decoration-danger="cancelled == 'Y'" attrs="{'invisible': ('cancelled', '=', 'N')}"/>
+                            <button name="revert_cancel" string="Uncancel" class="btn btn-secondary" type="object" attrs="{'invisible' : [('cancelled', '!=', 'Y')]}"/>
+                            <field name="state" invisible="1"/>
+                            <button name="cancel" string="Cancel" class="btn btn-secondary" type="object" attrs="{'invisible' : [('cancelled', '=', 'Y')]}"/>
+                            <button name="repeat_next_day" string="Repeat Next Day" class="oe_highlight" type="object" attrs="{'invisible' : [('state', '!=', 'DRAFT')]}"/>
+                            <button name="repeat_next_week" string="Repeat Next Week" class="oe_highlight" type="object" attrs="{'invisible' : [('state', '!=', 'DRAFT')]}"/>
+                        </tree>
+                    </field>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="message_ids"/>
+                    </div>
+                </sheet>
+
+            </form>
+        </field>
+    </record>
+
+    <record id='action_hr_overtime_schedule' model="ir.actions.act_window">
+        <field name="name">Overtime Schedule</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.overtime.schedule</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+    </record>
+
+    <menuitem id="menu_overtime_schedule" name="Schedule" groups="base.group_user" action="action_hr_overtime_schedule" parent="root_overtime_menu" sequence="1"/>
+
+</odoo>

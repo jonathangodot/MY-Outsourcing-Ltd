@@ -1,0 +1,48 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_employee_title
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20221116\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-06 04:17+0000\n"
+"PO-Revision-Date: 2022-12-06 04:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_employee_title
+#: model:ir.model,name:hr_employee_title.model_hr_employee
+msgid ""
+"Adds the attributes required to be compatible with the hardware to the "
+"employee model."
+msgstr "เพิ่มรายการที่จำเป็นเพื่อให้เข้ากันได้กับฮาร์ดแวร์โมเดลพนักงาน"
+
+#. module: hr_employee_title
+#: model:ir.model.fields.selection,name:hr_employee_title.selection__hr_employee__title__miss
+msgid "Miss"
+msgstr "นางสาว"
+
+#. module: hr_employee_title
+#: model:ir.model.fields.selection,name:hr_employee_title.selection__hr_employee__title__mr
+msgid "Mr"
+msgstr "นาย"
+
+#. module: hr_employee_title
+#: model:ir.model.fields.selection,name:hr_employee_title.selection__hr_employee__title__mrs
+msgid "Mrs"
+msgstr "นาง"
+
+#. module: hr_employee_title
+#: model:ir.model.fields.selection,name:hr_employee_title.selection__hr_employee__title__ms
+msgid "Ms"
+msgstr ""
+
+#. module: hr_employee_title
+#: model:ir.model.fields,field_description:hr_employee_title.field_hr_employee__title
+msgid "Title"
+msgstr "คำนำหน้านาม"

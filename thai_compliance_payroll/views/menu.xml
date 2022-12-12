@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="menu_revenue_department" name="Revenue Department" groups="base.group_user" parent="thai_compliance.root_thai_compliance" sequence="1"/>
+    <menuitem id="menu_social_security" name="Social Security" groups="base.group_user" parent="thai_compliance.root_thai_compliance" sequence="2"/>
+</odoo>

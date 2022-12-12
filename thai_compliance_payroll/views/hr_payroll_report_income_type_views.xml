@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_hr_payroll_report_income_type_tree" model="ir.ui.view">
+        <field name="name">hr.payroll.report.income.type.tree</field>
+        <field name="model">hr.payroll.report.income.type</field>
+        <field name="arch" type="xml">
+            <tree string="Income Types">
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_hr_payroll_report_income_type_form" model="ir.ui.view">
+        <field name="name">hr.payroll.report.income.type.form</field>
+        <field name="model">hr.payroll.report.income.type</field>
+        <field name="arch" type="xml">
+            <form string="Income Type">
+                <sheet>
+                    <div>
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group name="salary_rules" string="Salary Rules">
+                        <field name="salary_rule" widget="many2many_tags"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id='action_hr_payroll_report_income_type' model="ir.actions.act_window">
+        <field name="name">Income Types</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.payroll.report.income.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context"></field>
+    </record>
+
+    <menuitem id="hr_payroll_report_income_type" name="Income Types" groups="base.group_user" action="action_hr_payroll_report_income_type" parent="thai_compliance.menu_config" sequence="50"/>
+</odoo>

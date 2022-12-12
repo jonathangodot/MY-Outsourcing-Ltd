@@ -1,0 +1,1815 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* thai_compliance_payroll
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220915\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-01 08:26+0000\n"
+"PO-Revision-Date: 2022-11-03 09:30+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__n
+msgid ""
+"\n"
+"        5.  Payment of income subject to withholding tax according to the Revenue\n"
+"            Department\\’s Instruction issued under Section 3 Tredecim, such as prizes, any\n"
+"            reductions or benefits due to sales promotions, prices received from contests,\n"
+"            competitions or lucky draws, public entertainers\\’ income, income derived from\n"
+"            performance of work, advertisement fees, rents, transportation fees, services fees,\n"
+"            insurance premiums against loss, etc."
+msgstr ""
+"\n"
+"        5.  การจ่ายเงินได้ที่ต้องหักภาษี ณ ที่จ่าย ตามคำสั่งกรมสรรพากรที่ออกตามมาตรา\n"
+"            3 เตรส เช่น รางวัล ส่วนลดหรือประโยชน์ใด ๆ เนื่องจากการส่งเสริมการขาย รางวัล\n"
+"            ในการประกวด การแข่งขัน การชิงโชค ค่าแสดงของนักแสดงสาธารณะ ค่าจ้าง\n"
+"            ทำของ ค่าโฆษณา ค่าเช่า ค่าขนส่ง ค่าบริการ ค่าเบี้ยประกันวินาศภัย ฯลฯ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate__payer__source
+msgid "(1) Withhold at source"
+msgstr "(1) หัก ณ ที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate__payer__every_time
+msgid "(2) Pay every time"
+msgstr "(2) ออกให้ตลอดไป"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate__payer__one_time
+msgid "(3) Pay one time"
+msgstr "(3) ออกให้ครั้งเดียว"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate__payer__other
+msgid "(4) Other (Please Secify)"
+msgstr "(4) อื่นๆ (ระบุ)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__id_nb
+msgid "(For foreigners, social security number)"
+msgstr "สำหรับชาวต่างชาติ ให้ใส่เลขที่บัตรประกันสังคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__contribution
+msgid "(The fee used in the calculation is not less than 1, 650 baht and not more than 15, 000 baht)"
+msgstr "(ค่าจ้างที่ใช้ในการคำนวณ ไม่ต่ำกว่า 1,650 บาท และไม่เกิน 15,000 บาท)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_line_common__income_type__1
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month_line__income_type__1
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__income_type__1
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_line__income_type__1
+msgid "1. Income under Section 40(1): salaries, wages, etc. (In general cases.)"
+msgstr "1. เงินได้ตามมาตรา 40 (1) เงินเดือน ค่าจ้าง ฯลฯ กรณีทั่วไป"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__a
+msgid "1. Salary, wage, pension, etc. under Section 40(1)"
+msgstr "1. เงินเดือน ค่าจ้าง บำเหน็จบำนาญ เป็นต้น ตามมาตรา 40(1)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__total_wages
+msgid "1. Total wages"
+msgstr "1. ค่าจ้างทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__b
+msgid "2. Commissions etc. under Section 40(2)"
+msgstr "2. ค่าธรรมเนียม ค่านายหน้า ฯลฯ ตามมาตรา 40 (2)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__employee_contrib
+msgid "2. Employee Contribution"
+msgstr "2. เงินสมทบของพนักงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_line_common__income_type__2
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month_line__income_type__2
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__income_type__2
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_line__income_type__2
+msgid ""
+"2. Income under Section 40(1): salaries, wages, etc. (In the case where the Revenue Department has given approval to "
+"apply 3% withholding tax.)"
+msgstr "2. เงินได้ตามมาตรา 40 (1) เงินเดือน ค่าจ้าง ฯลฯ กรณีได้รับ อนุมัติจากกรมสรรพากรให้หักอัตราร้อยละ 3"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_structure__tax_3_percent
+msgid "3% Withholding Tax"
+msgstr "ภาษีหัก ณ ที่จ่าย 3%"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__employer_contrib
+msgid "3. Employer Contribution"
+msgstr "3. เงินสมทบของนายจ้าง"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_line_common__income_type__3
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month_line__income_type__3
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__income_type__3
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_line__income_type__3
+msgid ""
+"3. Income under Section 40(1)(2) (In case of single payment made by employer by reason of termination of employment.)"
+msgstr "3. เงินได้ตามมาตรา 40 (1) (2) กรณีนายจ้างจ่ายให้ครั้งเดียว เพราะเหตุออกจากงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__c
+msgid "3. Royalties etc. under Section 40(3)"
+msgstr "3. ค่าแห่งลิขสิทธิ์ ฯลฯ ตามมาตรา 40 (3)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_line_common__income_type__4
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month_line__income_type__4
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__income_type__4
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_line__income_type__4
+msgid "4. Income under Section 40(2) where a recipient is a resident of Thailand."
+msgstr "4. เงินได้ตามมาตรา 40 (2) กรณีผู้รับเงินได้เป็นผู้อยู่ในประเทศไทย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__total_contrib
+msgid "4. The total amount of contributions contributed"
+msgstr "4. จำนวนเงินสมทบทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__d
+msgid "4.a. Interest, etc. under Section 40(4)(a)"
+msgstr "4.ข. เงินปันผล เงินส่วนแบ่งกําไร ฯลฯ ตามมาตรา 40 (4) (ข)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__e
+msgid "4.b.1.1. 30 percent of net profit."
+msgstr "4.ข.1.1. อัตราร้อยละ 30 ของกําไรสุทธิ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__f
+msgid "4.b.1.2. 25 percent of net profit."
+msgstr "4.ข.1.2. อัตราร้อยละ 25 ของกําไรสุทธิ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__g
+msgid "4.b.1.3. 20 percent of net profit."
+msgstr "4.ข.1.3. อัตราร้อยละ 20 ของกําไรสุทธิ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__h
+msgid "4.b.1.4. Other rate (specify)"
+msgstr "4.ข.1.4. อัตราอื่น ๆ (ระบุ) ของกําไรสุทธิ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__i
+msgid "4.b.2.1. Net profit of business that is exempted from income tax."
+msgstr "4.ข.2.1. กำไรสุทธิของกิจการที่ได้รับยกเว้นภาษีเงินได้นิติบุคคล"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__j
+msgid "4.b.2.2. Dividend on share of profit which is exempted from income tax"
+msgstr "4.ข.2.2. เงินปันผลหรือเงินส่วนแบ่งของกำไรที่ได้รับยกเว้นไม่ต้องนำมารวมคำนวณเป็นรายได้เพื่อเสียภาษีเงินได้นิติบุคคล"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__k
+msgid ""
+"4.b.2.3. The portion of net profit after deduction of net loss carried forward for five years up to the present "
+"accounting period."
+msgstr "4.ข.2.3. กำไรสุทธิส่วนที่ได้หักผลขาดทุนสุทธิยกมาไม่เกิน 5 ปี ก่อนรอบระยะเวลาบัญชีปัจจุบัน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__l
+msgid "4.b.2.4. Recognition of profits using the equity method."
+msgstr "4.ข.2.4. กําไรที่รับรู้ทางบัญชีโดยวิธีส่วนได้เสีย (equity method)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__m
+msgid "4.b.2.5. Other (specify)"
+msgstr "4.ข.2.5. อื่น ๆ (ระบุ)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_line_common__income_type__5
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month_line__income_type__5
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__income_type__5
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_line__income_type__5
+msgid "5. Income under Section 40(2) where a recipient is a non-resident of Thailand."
+msgstr "5. เงินได้ตามมาตรา 40 (2) กรณีผู้รับเงินได้มิได้เป็นผู้อยู่ในประเทศไทย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__number_of_insured
+msgid "5. The number of the insured who submitted contributions"
+msgstr "5. จำนวนผู้เอาประกันภัยที่ส่งเงินสมทบ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_withholding_tax_certificate_line__name__o
+msgid "6. Others (Please specify)..."
+msgstr "6. อื่น ๆ (ระบุ)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__accordance_doc_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__accordance_doc_date
+msgid "Accordance Doc Date"
+msgstr "เอกสารตามวันที่"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__accordance_doc_no
+msgid "Accordance Doc No"
+msgstr "เอกสารกำกับเลขที่"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__accordance_doc_no
+msgid "Accordance Doc No."
+msgstr "เอกสารกำกับเลขที่"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+msgid "Accordance Document (2.)"
+msgstr "เอกสารประกอบ (2.)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__account_nb
+msgid "Account Number"
+msgstr "หมายเลขบัญชี"
+
+#. module: thai_compliance_payroll
+#: code:addons/thai_compliance_payroll/models/thailand_sps1_10.py:0
+#, python-format
+msgid "Account Number must be 10 digits long."
+msgstr "เลขที่บัญชีจำเป็นต้องมี 10 หลัก"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_needaction
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_needaction
+msgid "Action Needed"
+msgstr "การดำเนินการที่จำเป็น"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__actual_wages
+msgid "Actual Wages"
+msgstr "ค่าจ้างตามจริง"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__filling_type__add
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_company__filling_type__additional
+msgid "Additional"
+msgstr "เพิ่มเติม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__amount_paid
+msgid "Amount Paid"
+msgstr "จำนวนเงินที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__amount_paid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__amount_paid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__amount_paid
+msgid "Amount Paid (GROSS)"
+msgstr "จำนวนเงินที่จ่าย (GROSS)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__amount_paid_to_fund
+msgid "Amount paid to Government Pension Fund / Government Permanent Employee Fund / Private Teachers Aid Fund"
+msgstr "จำนวนเงินที่จ่ายเข้ากองทุนบำเหน็จบำนาญข้าราชการ / กองทุนลูกจ้างถาวรของรัฐบาล / กองทุนสงเคราะห์เอกชนครู"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__amount_paid_to_providient_fund
+msgid "Amount paid to Provident Fund"
+msgstr "จำนวนเงินที่จ่ายเข้ากองทุนสำรองเลี้ยงชีพ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__amount_paid_to_social_security
+msgid "Amount paid to Social Security Fund"
+msgstr "จำนวนเงินที่จ่ายเข้ากองทุนประกันสังคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__4
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__4
+msgid "April"
+msgstr "เมษายน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__attachment_line
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__attachment_type__attachment
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+msgid "Attachment"
+msgstr "เอกสารแนบ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_attachment_count
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_attachment_count
+msgid "Attachment Count"
+msgstr "จำนวนเอกสารแนบ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__attachment_line
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__attachment_line
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__attachment_line
+msgid "Attachment Line"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__attachment_type
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+msgid "Attachment Type"
+msgstr "ประเภทเอกสารแนบ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__8
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__8
+msgid "August"
+msgstr "สิงหาคม"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+msgid "B.E."
+msgstr "พ.ศ."
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__book_no
+msgid "Book No."
+msgstr "เล่มที่"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_tree
+msgid "Branch"
+msgstr "สาขา"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+msgid "Branch Information"
+msgstr "ข้อมูลสาขา"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__branch_nb
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__branch_nb
+msgid "Branch No."
+msgstr "สาขาเลขที่"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__sps1_10_id
+msgid "Branch Report"
+msgstr "รายงานสาขา"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_res_config_settings__code_gross
+msgid "Code Gross"
+msgstr "รหัส GROSS"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_res_config_settings__code_secu
+msgid "Code Social Security"
+msgstr "รหัสประกันสังคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_res_config_settings__code_tax
+msgid "Code Tax"
+msgstr "รหัสภาษี"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_compliance_payroll_common
+msgid "Common fields for the Thai compliance payroll documents"
+msgstr "ช่องกรอกข้อมูลทั่วไปสำหรับเอกสารการจ่ายเงินเดือนตามข้อกำหนดของไทย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__company_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__company_id
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Company"
+msgstr "บริษัท"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__company_address
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__company_address
+msgid "Company Address"
+msgstr "ที่อยู่บริษัท"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__company_report
+msgid "Company Report"
+msgstr "รายงานบริษัท"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__personal_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__personal_id
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+msgid "Company Tax ID"
+msgstr "เลขประจำตัวผู้เสียภาษีของบริษัท"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__condition
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__condition
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__condition
+msgid "Condition"
+msgstr "เงื่อนไข"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__contribution
+msgid "Contribution"
+msgstr "เงินสมทบ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__control_no
+msgid "Control No."
+msgstr "หมายเลขควบคุม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__create_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__create_uid
+msgid "Created by"
+msgstr "สร้างโดย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__create_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__create_date
+msgid "Created on"
+msgstr "สร้างบน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__currency_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__currency_id
+msgid "Currency"
+msgstr "สกุลเงิน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__date_paid
+msgid "Date Paid"
+msgstr "วันที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__12
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__12
+msgid "December"
+msgstr "ธันวาคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_attachment_line__condition__1
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_attachment_line_common__condition__1
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__condition__1
+msgid "Deducted at source"
+msgstr "หัก ณ ที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__detail_lines
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__pnd1_month
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Detail"
+msgstr "รายละเอียด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__attachment_type__diskette
+msgid "Diskette"
+msgstr "สื่อบันทึกในระบบคอมพิวเตอร์"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__display_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__display_name
+msgid "Display Name"
+msgstr "ชื่อที่แสดง"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__employee_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__employee_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__employee_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__employee_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__employee_id
+msgid "Employee"
+msgstr "พนักงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__employee_address
+msgid "Employee Address"
+msgstr "ที่อยู่พนักงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__employee_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__employee_name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__employee_name
+msgid "Employee Name"
+msgstr "ชื่อพนักงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__employee_surname
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__employee_surname
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__employee_surname
+msgid "Employee Surname"
+msgstr "นามสกุลพนักงาน"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+msgid "Export PDF"
+msgstr "ส่งออกไฟล์ PDF"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Export PDF (en)"
+msgstr "ส่งออกไฟล์ PDF (ภาษาอังกฤษ)"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Export PDF (th)"
+msgstr "ส่งออกไฟล์ PDF (ภาษาไทย)"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+msgid "Export PND1 (th)"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__fax_nb
+msgid "Fax"
+msgstr "แฟกซ์"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__fax_nb
+msgid "Fax ? It's 2022..."
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__2
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__2
+msgid "February"
+msgstr "กุมภาพันธ์"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__model_field_name
+msgid "Field Name"
+msgstr "ชื่อช่องกรอกข้อมูล"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__filling_no_time
+msgid "Filling No."
+msgstr "เลขที่กรอก"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__filling_type
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__filling_type
+msgid "Filling Type"
+msgstr "ประเภทการกรอกข้อมูล"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_follower_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_follower_ids
+msgid "Followers"
+msgstr "ผู้ติดตาม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_partner_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "ผู้ติดตาม (พันธมิตร)"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__accordance_doc_date
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__accordance_doc_no
+msgid ""
+"For : Income under Section 40 (1): salaries, wages, etc. in the case where the Revenue Department has given approval to "
+"apply 3% withholding tax"
+msgstr "เงินได้ตามมาตรา 40 (1) เงินเดือน ค่าจ้าง ฯลฯ กรณีได้รับอนุมัติจากกรมสรรพากรให้หักอัตราร้อยละ 3"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__accordance_doc_date
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__accordance_doc_no
+msgid "For line 2."
+msgstr "สำหรับบรรทัดที่ 2"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "For the purpose of examination"
+msgstr "เพื่อวัตถุประสงค์ในการตรวจสอบ"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Funds"
+msgstr "กองทุน"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+msgid "Generate Report"
+msgstr "สร้างรายงาน"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+msgid "Generate Withholding Tax Certificates"
+msgstr "สร้างใบรับรองภาษีหัก ณ ที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_search
+msgid "Group By"
+msgstr "จัดกลุ่มโดย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__amount_paid_to_fund
+msgid "Gvt. Pension Fund"
+msgstr "กองทุนบำเหน็จบำนาญข้าราชการ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__has_message
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__has_message
+msgid "Has Message"
+msgstr "มีข้อความ"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Header"
+msgstr "หัวข้อ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__id
+msgid "ID"
+msgstr "ไอดี"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__id_nb
+msgid "ID Number"
+msgstr "ไอดี"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_unread
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_needaction
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "หากเลือก ข้อความใหม่ต้องให้ความสนใจ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_has_sms_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_has_error
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "หากเลือก ข้อความบางข้อความมีข้อผิดพลาดในการส่ง"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__income_amount
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__income_amount
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__income_amount
+msgid "Income Amount"
+msgstr "จำนวนเงินรายได้"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_salary_rule__thai_compliance_income_type
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__income_type
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__income_type
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__income_type
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__income_type
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_hr_payroll_report_income_type_form
+msgid "Income Type"
+msgstr "ประเภทรายได้"
+
+#. module: thai_compliance_payroll
+#: model:ir.actions.act_window,name:thai_compliance_payroll.action_hr_payroll_report_income_type
+#: model:ir.ui.menu,name:thai_compliance_payroll.hr_payroll_report_income_type
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_hr_payroll_report_income_type_tree
+msgid "Income Types"
+msgstr "ประเภทรายได้"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_is_follower
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_is_follower
+msgid "Is Follower"
+msgstr "เป็นผู้ติดตาม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__1
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__1
+msgid "January"
+msgstr "มกราคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__7
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__7
+msgid "July"
+msgstr "กรกฎาคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__6
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__6
+msgid "June"
+msgstr "มิถุนายน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate____last_update
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line____last_update
+msgid "Last Modified on"
+msgstr "แก้ไขล่าสุดเมื่อ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__write_uid
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__write_uid
+msgid "Last Updated by"
+msgstr "อัปเดตล่าสุดโดย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__write_date
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__write_date
+msgid "Last Updated on"
+msgstr "อัปเดตล่าสุดเมื่อ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__line
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__branch_report
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__line
+msgid "Line"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+msgid "Location of Head Branch"
+msgstr "ที่ตั้งของสำนักงานใหญ่"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_main_attachment_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "เอกสารแนบหลัก"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__3
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__3
+msgid "March"
+msgstr "มีนาคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__5
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__5
+msgid "May"
+msgstr "พฤษภาคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_has_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_has_error
+msgid "Message Delivery error"
+msgstr "ข้อผิดพลาดในการส่งข้อความ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_ids
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_ids
+msgid "Messages"
+msgstr "ข้อความ"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Misc"
+msgstr "อื่น ๆ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_ir_module_module
+msgid "Module"
+msgstr "โมดูล"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__month
+msgid "Month"
+msgstr "เดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_res_config_settings__code_gross
+#: model:ir.model.fields,help:thai_compliance_payroll.field_res_config_settings__code_secu
+#: model:ir.model.fields,help:thai_compliance_payroll.field_res_config_settings__code_tax
+msgid "Must be similar to the one used in the salary rules."
+msgstr "จะต้องเหมือนกับข้อกำหนดเงินเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__name
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__name
+msgid "Name"
+msgstr "ชื่อ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__no
+msgid "No"
+msgstr "เลขที่"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__no
+msgid "No."
+msgstr "เลขที่"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__no_additional_time
+msgid "No. of Additional Time"
+msgstr "จำนวนครั้งที่นำส่งเอกสาร"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__11
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__11
+msgid "November"
+msgstr "พฤศจิกายน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_needaction_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_needaction_counter
+msgid "Number of Actions"
+msgstr "จำนวนการดำเนินการ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__nb_of_employees
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__number_of_employees
+msgid "Number of Employees"
+msgstr "จำนวนพนักงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__nb_pages
+msgid "Number of Pages"
+msgstr "เลขหน้า"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__nb_persons
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__nb_persons
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__nb_persons
+msgid "Number of Persons"
+msgstr "จำนวนคน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_has_error_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_has_error_counter
+msgid "Number of errors"
+msgstr "จำนวนข้อผิดพลาด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_needaction_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "จำนวนข้อความที่ต้องดำเนินการ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_has_error_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "จำนวนข้อความที่มีข้อผิดพลาดในการส่ง"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_unread_counter
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_unread_counter
+msgid "Number of unread messages"
+msgstr "จำนวนข้อความที่ยังไม่ได้อ่าน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__10
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__10
+msgid "October"
+msgstr "ตุลาคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__filling_type__ord
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_company__filling_type__ordinary
+msgid "Ordinary"
+msgstr "สามัญ"
+
+#. module: thai_compliance_payroll
+#: model:ir.actions.act_window,name:thai_compliance_payroll.action_pnd1_month
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payslip__pnd1_month
+#: model:ir.ui.menu,name:thai_compliance_payroll.pnd1_month
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_tree
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+msgid "PND1"
+msgstr "ภ.ง.ด.1 รายเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_attachment_line_common
+msgid "PND1 Attachment Line Common"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__pnd1_line_id
+msgid "PND1 Line"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_line_common
+msgid "PND1 Line Common"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__pnd1_month_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__pnd1_month_attachment_line
+msgid "PND1 Month"
+msgstr "ภ.ง.ด.1 เดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__pnd1_month_id
+msgid "PND1 Month Employees"
+msgstr "ภ.ง.ด.1 เดือน พนักงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_month
+msgid "PND1 Monthly Report"
+msgstr "รายงานประจำเดือน ภ.ง.ด.1"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_attachment_line
+msgid "PND1 Monthly Report Employee Detail"
+msgstr "รายละเอียดพนักงานรายงานประจำเดือน ภ.ง.ด.1"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_month_line
+msgid "PND1 Monthly Report Line"
+msgstr "รายงานประจำเดือน ภ.ง.ด.1"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__pnd1_year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__pnd1_year
+msgid "PND1 Year"
+msgstr "ปี ภ.ง.ด.1"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_year_attachment_line
+msgid "PND1 Year Attachment Line"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_year_company
+msgid "PND1 Year Company"
+msgstr "บริษัท ภ.ง.ด.1 ปี"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_pnd1_year_line
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__pnd1_year_line
+msgid "PND1 Year Line"
+msgstr ""
+
+#. module: thai_compliance_payroll
+#: model:ir.actions.act_window,name:thai_compliance_payroll.action_pnd1_year_company
+#: model:ir.ui.menu,name:thai_compliance_payroll.pnd1_year_company
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_tree
+msgid "PND1 kor"
+msgstr "ปี ภ.ง.ด.1"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__pnd1a
+msgid "PND1A"
+msgstr "ภ.ง.ด.1ก"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__pnd1a_ex
+msgid "PND1A Ex"
+msgstr "ภ.ง.ด.1 พิเศษ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__pnd2
+msgid "PND2"
+msgstr "ภ.ง.ด.2"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__pnd2a
+msgid "PND2A"
+msgstr "ภ.ง.ด.2ก"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__pnd3
+msgid "PND3"
+msgstr "ภ.ง.ด.3"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__pnd3a
+msgid "PND3A"
+msgstr "ภ.ง.ด.3ก"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__pnd53
+msgid "PND53"
+msgstr "ภ.ง.ด.53"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_attachment_line__condition__2
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_attachment_line_common__condition__2
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__condition__2
+msgid "Paid tax for recipient every time"
+msgstr "ออกให้ตลอดไป"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_attachment_line__condition__3
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_attachment_line_common__condition__3
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_year_attachment_line__condition__3
+msgid "Paid tax for recipient one time"
+msgstr "ออกให้ครั้งเดียว"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_hr_payslip
+msgid "Pay Slip"
+msgstr "สลิปเงินเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__payer
+msgid "Payer"
+msgstr "ผู้จ่ายเงิน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__payer_other
+msgid "Payer Other"
+msgstr "ผู้จ่ายเงิน อื่นๆ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__payment_date
+msgid "Payment Date"
+msgstr "วันที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_hr_payroll_report_income_type
+msgid "Payroll Report Income Type"
+msgstr "ประเภทรายได้รายงานเงินเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__payslip_ids
+msgid "Payslip"
+msgstr "สลิปเงินเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__personal_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__personal_id
+msgid "Personal Identification No."
+msgstr "หมายเลขรหัสประจำตัว"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__phone_nb
+msgid "Phone Number"
+msgstr "หมายเลขโทรศัพท์"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__employee_position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__employee_position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__employee_position
+msgid "Position"
+msgstr "ตำแหน่ง"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__position
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__position
+msgid "Position of Signer"
+msgstr "ตำแหน่งผู้ลงนาม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__amount_paid_to_providient_fund
+msgid "Providient Fund"
+msgstr "กองทุนสำรองเลี้ยงชีพ"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+msgid "Receipt"
+msgstr "ใบเสร็จ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__receipt_amount
+msgid "Receipt Amount"
+msgstr "จำนวนเงินที่ได้รับ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__receipt_amount_in_letter
+msgid "Receipt Amount in Letter"
+msgstr "จำนวนเงินที่ได้รับในจดหมาย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__receipt_date
+msgid "Receipt Date"
+msgstr "วันที่รับ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__receipt_no
+msgid "Receipt No."
+msgstr "เลขที่ใบเสร็จ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__months_paid
+msgid "Remittance of Contributions for monthly wages"
+msgstr "การส่งเงินสมทบสำหรับค่าจ้างรายเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.ui.menu,name:thai_compliance_payroll.menu_revenue_department
+msgid "Revenue Department"
+msgstr "กรมสรรพากร"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_has_sms_error
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "ข้อผิดพลาดในการส่ง SMS"
+
+#. module: thai_compliance_payroll
+#: model:ir.actions.act_window,name:thai_compliance_payroll.action_sps1_10
+#: model:ir.actions.act_window,name:thai_compliance_payroll.action_sps1_10_company
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__sps1_10_id
+#: model:ir.ui.menu,name:thai_compliance_payroll.sps1_10_menu
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_tree
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_tree
+msgid "SPS1-10"
+msgstr "สปส.1-10"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_sps1_10_company
+msgid "SPS1.10 Company"
+msgstr "บริษัท SPS1-10"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_sps1_10
+msgid "SPS1_10"
+msgstr "สปส1_10"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_sps1_10_branch_report
+msgid "SPS1_10 Line"
+msgstr "SPS1_10 ไลน์"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__amount_paid_to_social_security
+msgid "SS Fund"
+msgstr "กองทุนประกันสังคม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_hr_salary_rule
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_hr_payroll_report_income_type__salary_rule
+msgid "Salary Rule"
+msgstr "กฎเงินเดือน"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_hr_payroll_report_income_type_form
+msgid "Salary Rules"
+msgstr "กฎเงินเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_hr_payroll_structure
+msgid "Salary Structure"
+msgstr "โครงสร้างเงินเดือน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_pnd1_month__month__9
+#: model:ir.model.fields.selection,name:thai_compliance_payroll.selection__thailand_sps1_10__months_paid__9
+msgid "September"
+msgstr "กันยายน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__seq_no
+msgid "Seq. No."
+msgstr "ลำดับ เลขที่"
+
+#. module: thai_compliance_payroll
+#: model:ir.ui.menu,name:thai_compliance_payroll.menu_social_security
+msgid "Social Security"
+msgstr "ประกันสังคม"
+
+#. module: thai_compliance_payroll
+#: code:addons/thai_compliance_payroll/models/thailand_pnd1_year_company.py:0
+#, python-format
+msgid "Something went wrong, please contact your administrator."
+msgstr "มีบางอย่างผิดพลาด กรุณาติดต่อผู้ดูแลระบบของคุณ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__specify
+msgid "Specify..."
+msgstr "ระบุ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__surcharge
+msgid "Surcharge"
+msgstr "ค่าบริการเพิ่มเติม"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_compliance_payroll_common__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_line_common__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_month_line__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_company__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_pnd1_year_line__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_branch_report__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_sps1_10_company__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate__taxpayer_id
+#: model:ir.model.fields,help:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__taxpayer_id
+msgid "Tax Identification No."
+msgstr "เลขประจำตัวผู้เสียภาษี"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+msgid "Tax Infos"
+msgstr "ข้อมูลภาษี"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__tax_item
+msgid "Tax Item"
+msgstr "ภาษี"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__tax_withheld
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__tax_withheld
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__tax_withheld
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__tax_withheld
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__tax_withheld
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__tax_withheld
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__tax_withheld
+msgid "Tax Withheld"
+msgstr "ภาษีที่หักและนําส่งไว้"
+
+#. module: thai_compliance_payroll
+#: code:addons/thai_compliance_payroll/models/thailand_withholding_tax_certificate.py:0
+#, python-format
+msgid "Tax Withheld cannot be greater than Amount Paid."
+msgstr "ภาษีหัก ณ ที่จ่ายต้องไม่เกินจำนวนเงินที่ชำระ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__taxpayer_id
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__taxpayer_id
+msgid "Taxpayer ID Number"
+msgstr "เลขประจำตัวผู้เสียภาษี"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.res_config_settings_view_form
+msgid "Thai Compliance Payroll"
+msgstr "การจ่ายเงินเดือนตามกฎระเบียบของไทย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_res_config_settings
+msgid "Thai Compliance Social Security Rate"
+msgstr "อัตราเงินสมทบประกันสังคม"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+msgid "Tot. Actual Wages"
+msgstr "ค่าจ้างตามจริงทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+msgid "Tot. Amount"
+msgstr "ยอดทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+msgid "Tot. Contribution"
+msgstr "เงินสมทบทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_form
+msgid "Tot. Contributions"
+msgstr "เงินสมทบทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+msgid "Tot. Employer Contribution"
+msgstr "เงินสมทบของนายจ้างทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+msgid "Tot. Insured Contribution"
+msgstr "เงินสมทบประกันสังคมทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+msgid "Tot. Qtt Insuer Contribution"
+msgstr "เงินสมทบของผู้ประกันตนทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+msgid "Tot. Tax"
+msgstr "ภาษีทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_sps1_10_company_form
+msgid "Tot. Wages"
+msgstr "ค่าจ้างทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__tot_amount_paid
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+msgid "Total Amount Paid"
+msgstr "จำนวนเงินที่ชำระทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__tot_employee_income
+msgid "Total Employee Income"
+msgstr "รายได้รวมของพนักงาน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__tot_income
+msgid "Total Income"
+msgstr "รายได้ทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__tot_tax_paid
+msgid "Total Tax Paid"
+msgstr "ภาษีทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__tot_tax_withheld
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__tot_tax_withheld
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_month_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_pnd1_year_company_form
+msgid "Total Tax Withheld"
+msgstr "ภาษีหัก ณ ที่จ่ายทั้งหมด"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_unread
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_unread
+msgid "Unread Messages"
+msgstr "ข้อความที่ยังไม่ได้อ่าน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__message_unread_counter
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "ตัวนับข้อความที่ยังไม่ได้อ่าน"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__wtc_id
+msgid "WTC"
+msgstr "หนังสือรับรองการหักภาษี ณ ที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.actions.act_window,name:thai_compliance_payroll.action_withholding_tax_certificate
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_withholding_tax_certificate
+#: model:ir.ui.menu,name:thai_compliance_payroll.withholding_tax_certificate
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_form
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_tree
+msgid "Withholding Tax Certificate"
+msgstr "หนังสือรับรองการหักภาษี ณ ที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model,name:thai_compliance_payroll.model_thailand_withholding_tax_certificate_line
+msgid "Withholding Tax Certificate Line"
+msgstr "สายหนังสือรับรองการหักภาษี ณ ที่จ่าย"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__year
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__year
+#: model_terms:ir.ui.view,arch_db:thai_compliance_payroll.view_withholding_tax_certificate_search
+msgid "Year"
+msgstr "ปี"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_compliance_payroll_common__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_attachment_line_common__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_line_common__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month_line__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_attachment_line__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_company__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_year_line__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_branch_report__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_sps1_10_company__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate__year_be
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_withholding_tax_certificate_line__year_be
+msgid "Year BE"
+msgstr "ปี พ.ศ"
+
+#. module: thai_compliance_payroll
+#: model:ir.model.fields,field_description:thai_compliance_payroll.field_thailand_pnd1_month__pnd1_year_company
+msgid "Year PND1"
+msgstr "ปี ภ.ง.ด.1"

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_pnd1_month_tree" model="ir.ui.view">
+        <field name="name">pnd1.month.employees.tree</field>
+        <field name="model">thailand.pnd1.month</field>
+        <field name="arch" type="xml">
+            <tree string="PND1">
+                <field name="company_id"/>
+                <field name="month"/>
+                <field name="year"/>
+                <field name="nb_of_employees"/>
+                <field name="tot_amount_paid"/>
+                <field name="tot_tax_withheld"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_pnd1_month_form" model="ir.ui.view">
+        <field name="name">pnd1.month.employees.form</field>
+        <field name="model">thailand.pnd1.month</field>
+        <field name="arch" type="xml">
+            <form string="PND1">
+                <header>
+                    <button name="generate_report" string="Generate Report" type="object" class="oe_highlight"/>
+                    <button name="pdf_export_pnd1_month_en" string="Export PDF (en)" type="object" class="oe_highlight"/>
+                    <button name="pdf_export_pnd1_month_th" string="Export PDF (th)" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <group name="Commun">
+                        <group name="Company Info" string="Company">
+                            <field name="company_id"/>
+                            <field name="company_address"/>
+                            <field name="position"/>
+                        </group>
+                        <group name="Tax Info" string="Company Tax ID">
+                            <field name="personal_id"/>
+                            <field name="taxpayer_id"/>
+                        </group>
+                    </group>
+                    <group name="PND1" string="PND1">
+                        <group>
+                            <field name="month"/>
+                            <field name="year"/>
+                            <field name="year_be"/>
+                            <field name="branch_nb"/>
+                            <field name="nb_of_employees"/>
+                        </group>
+                        <group>
+                            <field name="filling_type"/>
+                            <field name="filling_no_time" attrs="{'invisible': [('filling_type', '=', 'Ord')]}"/>
+                            <!-- tot_place_holder -->
+                            <field name="tot_amount_paid"/>
+                            <field name="tot_tax_withheld"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group string="Receipt">
+                            <field name="receipt_date"/>
+                            <field name="receipt_no"/>
+                            <field name="receipt_amount"/>
+                            <field name="receipt_amount_in_letter"/>
+                        </group>
+                        <group string="Attachment Type">
+                            <field name="attachment_type"/>
+                            <field name="nb_pages"/>
+                            <field name="control_no"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group string="Accordance Document (2.)">
+                            <field name="accordance_doc_no"/>
+                            <field name="accordance_doc_date"/>
+                            <field name="surcharge"/>
+                        </group>
+                    </group>
+                    <field name="detail_lines" widget="one2many">
+                        <tree string="Detail" editable="bottom" delete="0" create="0" write="0" readonly="1">
+                            <field name="income_type" readonly="1"/>
+                            <field name="nb_persons" readonly="1"/>
+                            <field name="income_amount" sum="Total Amount Paid" readonly="1"/>
+                            <field name="tax_withheld" sum="Total Tax Withheld" readonly="1"/>
+                        </tree>
+                    </field>
+                    <field name="attachment_line">
+                        <tree string="Attachment" editable="bottom" delete="0" create="0" write="0" readonly="1">
+                            <field name="employee_id" readonly="1"/>
+                            <field name="payment_date"/>
+                            <!-- line_place_holder -->
+                            <field name="amount_paid" sum="Total Amount Paid" readonly="1"/>
+                            <field name="tax_withheld" sum="Total Tax Withheld" readonly="1"/>
+                            <field name="condition"/>
+                        </tree>
+                    </field>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" groups="base.group_user"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id='action_pnd1_month' model="ir.actions.act_window">
+        <field name="name">PND1</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">thailand.pnd1.month</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+    </record>
+
+    <menuitem id="pnd1_month" name="PND1" groups="base.group_user" action="action_pnd1_month" parent="menu_revenue_department" sequence="0"/>
+
+</odoo>

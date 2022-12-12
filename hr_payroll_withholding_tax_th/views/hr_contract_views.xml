@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="hr_contract_form_inherit_income_tax" model="ir.ui.view">
+        <field name="name">hr.contract.view.form.inherit_income_tax</field>
+        <field name="model">hr.contract</field>
+        <field name="inherit_id" ref="hr_contract.hr_contract_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='information']" position='after' groups="hr.group_hr_user">
+                <page name="personal_income_tax" string="Personal Income Tax">
+                    <group>
+                        <group string="Personal Income Forecast" name="personal_income_forecast">
+                            <field name="use_forecast"/>
+                            <label for="estimated_total_income" attrs="{'invisible': [('use_forecast', '=', False)]}"/>
+                            <div class="o_row" name="estimated_total_income" attrs="{'invisible': [('use_forecast', '=', False)]}">
+                                <field name="estimated_total_income" nolabel="1"/>
+                                <span>/ month</span>
+                            </div>
+                            <label for="yearly_taxes" attrs="{'invisible': [('use_forecast', '=', False)]}"/>
+                            <div class="o_row" name="yearly_taxes" attrs="{'invisible': [('use_forecast', '=', False)]}">
+                                <field name="yearly_taxes" nolabel="1"/>
+                                <span>/ year</span>
+                            </div>
+                            <label for="yearly_taxes_percentage" attrs="{'invisible': [('use_forecast', '=', False)]}"/>
+                            <div class="o_row" name="yearly_taxes_percentage" attrs="{'invisible': [('use_forecast', '=', False)]}">
+                                <field name="yearly_taxes_percentage" nolabel="1"/>
+                                <span>/ year</span>
+                            </div>
+                            <div  attrs="{'invisible': [('use_forecast', '=', False)]}">
+                                <p>
+                                    This is an estimation of the yearly taxes the employee will have to pay.
+                                    Be aware that updating the estimated income during the fiscal year will yield a much less precise
+                                    estimation of the actual total taxes paid at the end of the year.
+                                </p>
+                            </div>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

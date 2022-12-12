@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="root_overtime_menu" name="Overtime" groups="base.group_user" sequence="40" web_icon="hr_overtime,static/description/icon.png"/>
+    <menuitem id="menu_overtime_schedule" name="Schedule" groups="base.group_user" parent="root_overtime_menu" sequence="0"/>
+</odoo>

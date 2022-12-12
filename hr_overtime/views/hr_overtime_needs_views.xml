@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="view_hr_overtime_needs_tree" model="ir.ui.view">
+        <field name="name">hr.overtime.needs.tree</field>
+        <field name="model">hr.overtime.need</field>
+        <field name="arch" type="xml">
+            <tree string="Needs">
+                <field name="name"/>
+                <field name="hours_needed"/>
+                <field name="percentage_filled"/>
+                <field name="date_to"/>
+                <field name="state" widget="badge" decoration-muted="state == 'OVER'" decoration-success="state == 'VALIDATED'" decoration-primary="state == 'DRAFT'"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_hr_overtime_needs_form" model="ir.ui.view">
+        <field name="name">hr.overtime.needs.form</field>
+        <field name="model">hr.overtime.need</field>
+        <field name="arch" type="xml">
+            <form string="Overtime Need">
+                <header>
+                    <field name="state" widget="statusbar" statusbar_visible="DRAFT,VALIDATED,OVER"/>
+                    <field name="hours_completed" invisible="1"/>
+                    <button name="publish_all_work_entries" type="object" string="Publish All Work Entries" class="oe_highlight" attrs="{'invisible' : [('state', '=', 'DRAFT')]}"/>
+                    <button name="set_to_draft" type="object" string="Set To Draft" attrs="{'invisible': [('state', '=', 'DRAFT')]}"/>
+                    <button name="set_to_validated" type="object" string="Set To Validated" class="oe_highlight" attrs="{'invisible': ['|', ('hours_completed', '=', False), ('state', '!=', 'DRAFT')]}"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" />
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="hours_needed"/>
+                            <field name="hours_filled"/>
+                            <field name="percentage_filled"/>
+                        </group>
+                        <group>
+                            <field name="date_from"/>
+                            <field name="date_to"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Schedule" name="other">
+                            <field name="ot_schedules" widget="one2many">
+                                <tree string="Schedule">
+                                    <field name="employee_id"/>
+                                    <field name="name"/>
+                                    <field name="date_start"/>
+                                    <field name="date_stop"/>
+                                    <field name="nb_hours"/>
+                                    <button name="publish_work_entries" string="Publish Work Entries" class="oe_highlight" type="object" attrs="{'invisible': [('state', '=', 'DRAFT')]}"/>
+                                    <field name="state" widget="badge" decoration-muted="state == 'OVER'" decoration-info="state == 'ACCEPTED'" decoration-primary="state == 'DRAFT'" decoration-success="state == 'VALIDATED'"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Description" name="description">
+                            <field name="description"/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" groups="base.group_user"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id='action_hr_overtime_needs' model="ir.actions.act_window">
+        <field name="name">Overtime Needs</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hr.overtime.need</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+    </record>
+
+    <menuitem id="menu_overtime_needs" name="Needs" groups="base.group_user" action="action_hr_overtime_needs" parent="root_overtime_menu" sequence="0"/>
+
+</odoo>

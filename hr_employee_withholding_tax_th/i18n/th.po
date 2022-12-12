@@ -1,0 +1,221 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_employee_withholding_tax_th
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220915\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-20 02:12+0000\n"
+"PO-Revision-Date: 2022-10-27 19:40+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__worked_before
+msgid "Before Joining Employee was"
+msgstr "ก่อนที่จะเข้าร่วมกับพนักงาน"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__children_before_2018
+msgid "Children Allowance THB 30,000"
+msgstr "เงินเบี้ยเลี้ยงบุตร 30,000 บาท"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__children_since_2018
+msgid "Children Allowance THB 60,000"
+msgstr "เงินเบี้ยเลี้ยงบุตร 60,000 บาท"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__currency_id
+msgid "Currency"
+msgstr "สกุลเงิน"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Dependent Children (born after 2018)"
+msgstr "เด็กที่อยู่ในความอุปการะ (เกิดหลังปี 2018)"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Dependent Children (born before 2018)"
+msgstr "เด็กที่อยู่ในความอุปการะ (เกิดก่อนปี 2018)"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Dependent Parents"
+msgstr "บิดามารดาที่อยู่ในความอุปการะ"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Donations"
+msgstr "บริจาค"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__donations
+msgid "Donations (Not more than 10% of net taxable income before deduction donation)"
+msgstr "เงินบริจาค (ไม่เกิน 10% ของรายได้สุทธิที่ต้องเสียภาษีก่อนหักลดหย่อน)"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields.selection,name:hr_employee_withholding_tax_th.selection__hr_employee__worked_before__employed
+msgid "Employed"
+msgstr "จ้างงาน"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model,name:hr_employee_withholding_tax_th.model_hr_employee
+msgid "Employee"
+msgstr "พนักงาน"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Expenses"
+msgstr "ค่าใช้จ่าย"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__expenses
+msgid "Expenses 50% not over THB 100,000"
+msgstr "ค่าใช้จ่าย 50% ไม่เกิน 100,000 บาท"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Family"
+msgstr "ครอบครัว"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Finance"
+msgstr "การเงิน"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__first_year
+#, fuzzy
+msgid "First Year At The Company"
+msgstr "ปีแรกที่บริษัท"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Health"
+msgstr "สุขภาพ"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Housing Loan"
+msgstr "สินเชื่อเพื่อที่อยู่อาศัย"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__housing_loan
+msgid "Housing Loan Interests (Max 100,000)"
+msgstr "ดอกเบี้ยสินเชื่อเพื่อที่อยู่อาศัย (สูงสุด 100,000)"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Insurance Premium"
+msgstr "ค่าเบี้ยประกัน"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__insurance_premium
+msgid "Insurance premium (Max THB 100,000)"
+msgstr "ค่าเบี้ยประกัน (สูงสุด 100,000 บาท)"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__parents_allowance
+msgid "Parents Allowance THB 30,000"
+msgstr "เงินเบี้ยเลี้ยงบิดามารดา 30,000 บาท"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Personal"
+msgstr "ส่วนตัว"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Personal Allowance"
+msgstr "เงินสงเคราะห์ส่วนบุคคล"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__personal_allowance
+msgid "Personal Allowance THB 60,000"
+msgstr "เงินช่วยเหลือส่วนตัว 60,000 บาท"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Previous Company Info"
+msgstr "ข้อมูลบริษัทก่อนหน้า"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__previous_revenue
+msgid "Previous Revenue"
+msgstr "รายได้ก่อนหน้า"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__previous_social_security
+msgid "Previous Social Security"
+msgstr "ประกันสังคมก่อนหน้า"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__previous_withholding_tax
+msgid "Previous Withholding Tax"
+msgstr "ภาษีหัก ณ ที่จ่าย ก่อนหน้า"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+#, fuzzy
+msgid "Provident Found"
+msgstr "กองทุนสํารอง"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__provident_fund_retirement_mutual_fund
+msgid "Provident Fund/Retirement Mutual Fund : RMF (30% of Income Not over 500,000 Baht)"
+msgstr "กองทุนสํารอง/กองทุนรวมหลังเกษียณ : RMF (30% ของรายได้ไม่เกิน 500,000 บาท)"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__provident_fund
+msgid "Provident fund allowance (Max 10,000)"
+msgstr "กองทุนสํารอง (สูงสุด 10,000)"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Retirement Mutual Fund"
+msgstr "กองทุนรวมหลังเกษียณ"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Spouse Allowance"
+msgstr "เงินสงเคราะห์คู่สมรส"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__spouse_allowance
+msgid "Spouse Allowance THB 60,000"
+msgstr "เงินสงเคราะห์คู่สมรส 60,000 บาท"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+#, fuzzy
+msgid "Super Saving Found (SSF)"
+msgstr "กองทุนรวมเพื่อการออม"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,field_description:hr_employee_withholding_tax_th.field_hr_employee__ssf
+msgid "Super Saving Funds: SSF (30% of Income Not over 500,000 Baht)"
+msgstr "กองทุนรวมเพื่อการออม: SSF (30% ของรายได้ ไม่เกิน 500,000 บาท)"
+
+#. module: hr_employee_withholding_tax_th
+#: model_terms:ir.ui.view,arch_db:hr_employee_withholding_tax_th.allowance_fields
+msgid "Tax Allowance Information"
+msgstr "ข้อมูลการลดหย่อนภาษี"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields.selection,name:hr_employee_withholding_tax_th.selection__hr_employee__worked_before__unemployed
+msgid "Unemployed"
+msgstr "ว่างงาน"
+
+#. module: hr_employee_withholding_tax_th
+#: model:ir.model.fields,help:hr_employee_withholding_tax_th.field_hr_employee__first_year
+msgid "Was the employee hired this year ?"
+msgstr "ปีนี้พนักงานได้รับการว่าจ้างหรือไม่?"

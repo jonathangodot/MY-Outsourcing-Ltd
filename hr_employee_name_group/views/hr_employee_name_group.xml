@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+  <record id="view_employee_form_name_group" model="ir.ui.view">
+    <field name="name">view.employee.form.inherit.extension</field>
+    <field name="model">hr.employee</field>
+    <field name="priority" eval="1"/>
+    <field name="inherit_id" ref="hr.view_employee_form" />
+    <field name="arch" type="xml">
+      <xpath id="names" expr="//h1//field[@name='name']/.." position="after">
+        <group id="name_group"></group>
+      </xpath>
+    </field>
+  </record>
+</odoo>
